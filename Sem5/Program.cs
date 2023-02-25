@@ -26,16 +26,26 @@ void PrintArray(double[] numbers2)
         index2++;
     }
 }
-// вычисление сумм
-double sum():
+// вычисление суммы отрицательных 
+double sum1():
 {
-    sum1 = 0;
-    sum2 = 0;
+    sum = 0;
     for (numbers2 < 0)
     {
-        sum1 = 
+        sum = 
     }
 }
+
+// вычисление суммы положительных 
+double sum2():
+{
+    sum = 0;
+    for (numbers2 > 0)
+    {
+        sum = 
+    }
+}
+
 Console.Write("Введите число N: ");
 int N = int.Parse(Console.ReadLine());
 double [] array = new double[N]; // определили (ограничили) массив из N элементов
